@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 10px;
+    max-width: 310px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(161, 160, 160);
+    border-radius: 10px;
+}
+.display {
+    grid-column: span 4;
+    height: 40px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Basic;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.button {
+    height: 50px;
+    width: 70px;
+    border: 1px solid black;
+    font-size: 1.3em;
+    font-family: Basic;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: scale(0.975);
+    transition: 0.25s;
+} 
+
