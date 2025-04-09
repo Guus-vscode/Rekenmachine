@@ -29,6 +29,11 @@
     font-size: 1.3em;
     font-family: Basic;
     border-radius: 5px;
+    background-color: white;
+}
+#resultbutton {
+    background-color: rgba(0, 81, 255, 0.856);
+    color: white;
 }
 
 button:active {
