@@ -32,12 +32,22 @@
     background-color: white;
 }
 #resultbutton {
-    background-color: blue;
+    background-color: rgba(0, 81, 255, 0.856);
     color: white;
+}
+
+
+.button_on-off {
+    grid-column: 4; 
+    justify-self: end;
+    background-color: #ff4d4d; 
+    color: white;
+    font-weight: bold; 
+    
 }
 
 button:active {
     transform: scale(0.975);
     transition: 0.25s;
-} 
+}
 
