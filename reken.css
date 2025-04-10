@@ -29,10 +29,38 @@
     font-size: 1.3em;
     font-family: Basic;
     border-radius: 5px;
+    background-color: white;
+}
+#resultbutton {
+    background-color: rgba(0, 81, 255, 0.856);
+    color: white;
+}
+
+
+.button_on-off {
+    grid-column: 4; 
+    justify-self: end;
+    background-color: #ff4d4d; 
+    color: white;
+    font-weight: bold; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 7.5px;
+     
 }
 
 button:active {
     transform: scale(0.975);
     transition: 0.25s;
-} 
+}
 
+.spaces {
+    height: 10px;
+    width: 70px;
+    border: 0px solid black;
+    font-size: 1.3em;
+    font-family: Basic;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
