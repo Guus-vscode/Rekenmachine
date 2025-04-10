@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 body{
 font-family: Basic, sans-serif;
-
+}
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 70px);
@@ -50,8 +50,7 @@ font-family: Basic, sans-serif;
     font-weight: bold; 
     border: 1px solid black;
     border-radius: 5px;
-    margin-left: 7.5px;
-     
+    margin-left: 7.5px;  
 }
 
 button:active {
