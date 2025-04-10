@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 body{
-font-family: Basic, sans-serif;
+font-family: "Basic", sans-serif;
 }
 .calculator {
     display: grid;
